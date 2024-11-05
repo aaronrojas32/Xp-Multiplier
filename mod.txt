@@ -1,0 +1,16 @@
+{
+	"name" : "XP Multiplier",
+	"description" : "Increase mission completion XP",
+	"author" : "aaronrojas32",
+	"contact" : "www.payday2.pw",
+	"version" : "0.1-beta",
+	"color" : "224, 38, 88",
+
+	"hooks" : [
+	{ 	
+		"hook_id" : "lib/managers/experiencemanager",
+		"script_path" : "code.lua"
+	}
+]
+	
+}
