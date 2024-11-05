@@ -1,16 +1,32 @@
 {
-	"name" : "XP Multiplier",
-	"description" : "Increase mission completion XP",
-	"author" : "aaronrojas32",
-	"contact" : "www.payday2.pw",
-	"version" : "0.1-beta",
-	"color" : "224, 38, 88",
+	"name": "XP Multiplier",
+	"description": "Increase mission completion XP",
+	"author": "aaronrojas32",
+	"contact": "www.payday2.pw",
+	"version": "0.1-beta",
+	"color": "224, 38, 88",
 
-	"hooks" : [
-	{ 	
-		"hook_id" : "lib/managers/experiencemanager",
-		"script_path" : "code.lua"
+	"hooks": [
+		{
+			"hook_id": "lib/managers/experiencemanager",
+			"script_path": "code.lua"
+		}
+	],
+
+	"options": {
+		"menu_id": "xp_multiplier_menu",
+		"title": "XP Multiplier Settings",
+		"description": "Configura el multiplicador de experiencia.",
+		"items": [
+			{
+				"type": "slider",
+				"name": "xp_multiplier",
+				"text": "Multiplicador de Experiencia",
+				"min": 1,
+				"max": 10,
+				"step": 1,
+				"default_value": 2
+			}
+		]
 	}
-]
-	
 }
