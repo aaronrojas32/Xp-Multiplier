@@ -12,21 +12,4 @@
 			"script_path": "code.lua"
 		}
 	],
-
-	"options": {
-		"menu_id": "xp_multiplier_menu",
-		"title": "XP Multiplier Settings",
-		"description": "Configura el multiplicador de experiencia.",
-		"items": [
-			{
-				"type": "slider",
-				"name": "xp_multiplier",
-				"text": "Multiplicador de Experiencia",
-				"min": 1,
-				"max": 10,
-				"step": 1,
-				"default_value": 2
-			}
-		]
-	}
 }
